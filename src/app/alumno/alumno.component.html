@@ -1,0 +1,9 @@
+<p>alumno</p>
+
+<button (click)="onClickActivar()" > activar</button>
+
+<div *ngIf="activo" >
+  <ul>
+    <li *ngFor="let a of alumnos" > {{ a }}</li>
+  </ul>
+</div>
